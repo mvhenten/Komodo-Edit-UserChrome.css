@@ -1,0 +1,56 @@
+/* Customized setting for override the selected editor Tab colors */
+/* Tabbox background */
+tabbox, tabs {
+    background-color: #3b3a36 !important;
+}
+
+#editorviewbox tab > tabs {
+    border: 1px solid red !important;
+    font-size: 13px !important;
+}
+
+
+/* Tab background and visuals */
+tab {
+    background-color: #3b3a36 !important;
+    font-size: 13px !important;
+}
+
+/* Hovering over tab, change background and font color */
+#editorviewbox tabs > tab {
+    background: #2c2c29 !important;
+    font-size: 13px !important;
+}
+
+/* Active tab including hovering, change background and font weight */
+/*
+tabs > tab[selected="true"], tabs > tab[selected="true"]? {
+    background-color: #2c2c29 !important;
+    font-weight: bolder !important;
+  font-size: 11px;
+}
+*/
+/* Sample to update all the trees inside komodo for white on black theme. */
+tree { 
+    background-color: #242424 !important;
+    color: #c7c7c7 !important;
+    font-size: 13px !important;
+}
+
+treechildren {
+    background-color: #242424 !important;
+    font-size: 13px;
+    color: #c7c7c7 !important;
+}
+
+/* Set font size and family for dialogs and other miscellaneous text */
+window, dialog {
+        background-color: #3c3b37 !important;
+      font-size: 11px;
+}
+
+/* Make menus big, pretty and readable */
+menubar, menubutton, menulist, menu, menuitem {
+    background-color: #3c3b37 !important;
+    font-size: 13px !important;
+}
